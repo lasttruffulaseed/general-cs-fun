@@ -23,3 +23,5 @@ G:\development\github-contribs\MemPagerSim\MemPagerSim\obj\x86\Release\MemPagerS
 G:\development\github-contribs\MemPagerSim\MemPagerSim\obj\x86\Release\MemPagerSim.frmMemPagerSim.resources
 G:\development\github-contribs\MemPagerSim\MemPagerSim\obj\x86\Release\MemPagerSim.Properties.Resources.resources
 G:\development\github-contribs\MemPagerSim\MemPagerSim\obj\x86\Release\MemPagerSim.csproj.GenerateResource.Cache
+G:\development\github-contribs\general-cs-fun\MemPagerSim\MemPagerSim\obj\x86\Release\MemPagerSim.exe
+G:\development\github-contribs\general-cs-fun\MemPagerSim\MemPagerSim\obj\x86\Release\MemPagerSim.pdb
