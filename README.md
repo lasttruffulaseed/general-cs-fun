@@ -13,9 +13,7 @@ edition</a> by Silberschatz, Galvin and Gagne, describes various strategies for 
 This c# app implements a trivial framework and UI for simulating such strategies. It includes examples for FIFO, Optimal 
 and LRU page replacement algorithms. The app takes a sequence string, similar to the strings described in the text, that 
 describe the algorithm to use, the simulated number of frames and the sequence of page requests to be simulated.
-<br>
-Fun features!:
-<br>
+<h4>Fun Features!</h4>
 1) An extensible class framework to allow additional algorithms to be plugged in.
 <br>
 2) Use of abstract methods/callbacks for the extension points.
@@ -24,8 +22,12 @@ Fun features!:
    what is used within multi-platform mobile applications - whereby the rendering leverages existing capabilities of a 
    native browser.
 <br>   
-See slides 9.25 to 9.31, in ch9_1.pdf, for a description of the FIFO and Optimal page replacement strategies.
+See slides 9.25 to 9.31, in ch9_1.pdf, for a description of the FIFO and Optimal page replacement strategies. The Optimal
+strategy requires an advanced "crystal ball processor unit", with properties similar to a 
+<a href="http://en.wikipedia.org/wiki/DeLorean_time_machine#Flux_capacitor">flux capacitor</a>. We're simulating its
+immense capabilities here by providing the request sequence in advance to the algorithm...
 Also, slides 9.4 to 9.8, in ch9_2.pdf, describe the LRU page replacement strategy.
 The 'pretty printed' output is formatted to look the same as in the examples in the text - with the sequence of frames
-moving horizontally across the page. Perhaps the app could be used to produce more examples in later additions :)
+moving horizontally across the page.
+<br>Perhaps the app could be used to produce more examples in later additions of the text... ;)
 
