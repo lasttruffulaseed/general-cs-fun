@@ -20,9 +20,9 @@ Fun features!:
 <br>
 2) Use of abstract methods/callbacks for the extension points.
 <br>
-3) Use of an embedded browser control for 'pretty printing' of the simulation. This is a similar implementation pattern as
-   used with multi-platform mobile applications - where the rendering leverages the existing capabilities of a native
-   browser.
+3) Use of an embedded browser control for 'pretty printing' of the simulation. This is a similar implementation pattern to
+   what is used within multi-platform mobile applications - whereby the rendering leverages existing capabilities of a 
+   native browser.
 <br>   
 See slides 9.25 to 9.31, in ch9_1.pdf, for a description of the FIFO and Optimal page replacement strategies.
 Also, slides 9.4 to 9.8, in ch9_2.pdf, describe the LRU page replacement strategy.
