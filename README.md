@@ -31,3 +31,9 @@ The 'pretty printed' output is formatted to look the same as in the examples in 
 moving horizontally across the page.
 <br>Perhaps the app could be used to produce more examples in later additions of the text... ;)
 
+Monopoly-Simulator
+-------- ---------
+<br>
+This is a c++ console app (on purpose), which includes the rules for the game of monopoly, for simulating random games.
+<br>
+It was an exercise to flex the use of multiple-inheritence, polymorphism and dynamic dispatches of many types.

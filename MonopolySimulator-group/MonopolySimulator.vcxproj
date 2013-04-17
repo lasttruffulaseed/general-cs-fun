@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{03E48220-2485-4878-9169-E39460EBD4AB}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>MonopolySimulator</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Bank.cpp" />
+    <ClCompile Include="BuildableSpace.cpp" />
+    <ClCompile Include="Card.cpp" />
+    <ClCompile Include="CardSpace.cpp" />
+    <ClCompile Include="Deed.cpp" />
+    <ClCompile Include="Dice.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GoToJailInstruction.cpp" />
+    <ClCompile Include="GoToJailSpace.cpp" />
+    <ClCompile Include="Instruction.cpp" />
+    <ClCompile Include="MoneyCard.cpp" />
+    <ClCompile Include="MoneyInstruction.cpp" />
+    <ClCompile Include="MoveInstruction.cpp" />
+    <ClCompile Include="MovementCard.cpp" />
+    <ClCompile Include="NoActionSpace.cpp" />
+    <ClCompile Include="GameRunner.cpp" />
+    <ClCompile Include="MonopolySimulator.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PropertySpace.cpp" />
+    <ClCompile Include="SimplePlayer.cpp" />
+    <ClCompile Include="Space.cpp" />
+    <ClCompile Include="Station.cpp" />
+    <ClCompile Include="Street.cpp" />
+    <ClCompile Include="TaxSpace.cpp" />
+    <ClCompile Include="Utility.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bank.h" />
+    <ClInclude Include="BuildableSpace.h" />
+    <ClInclude Include="Card.h" />
+    <ClInclude Include="CardSpace.h" />
+    <ClInclude Include="ClassRegistry.h" />
+    <ClInclude Include="Deed.h" />
+    <ClInclude Include="Dice.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameRunner.h" />
+    <ClInclude Include="GoToJailInstruction.h" />
+    <ClInclude Include="GoToJailSpace.h" />
+    <ClInclude Include="Instruction.h" />
+    <ClInclude Include="MoneyCard.h" />
+    <ClInclude Include="MoneyInstruction.h" />
+    <ClInclude Include="MoveInstruction.h" />
+    <ClInclude Include="MovementCard.h" />
+    <ClInclude Include="NoActionSpace.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PropertySpace.h" />
+    <ClInclude Include="SimplePlayer.h" />
+    <ClInclude Include="Space.h" />
+    <ClInclude Include="Station.h" />
+    <ClInclude Include="Street.h" />
+    <ClInclude Include="Helpers.h" />
+    <ClInclude Include="TaxSpace.h" />
+    <ClInclude Include="Utility.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Monopoly.cd" />
+    <None Include="monopoly.cfg" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Bank" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAABAAAABAAAAAAAAAAAAAAAAAAAAAAIAAAAACAAA=</HashCode>
+      <FileName>Bank.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuildableSpace" Collapsed="true">
+    <Position X="8" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAABAAAAAAAAAAQAAAAAAAQAAAAAIAAAA=</HashCode>
+      <FileName>BuildableSpace.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Card" Collapsed="true">
+    <Position X="11" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Card.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassRegistry&lt;Base&gt;" Collapsed="true">
+    <Position X="11" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAIAAAAAAAAACAAAAIAAAAA=</HashCode>
+      <FileName>ClassRegistry.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Deed" Collapsed="true">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAgAAAAAAAAAAAAAAAAAAQCAUAAAAQAIECQAAAQA=</HashCode>
+      <FileName>Deed.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dice" Collapsed="true">
+    <Position X="11" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAkAAAAAAAAAAgAAAAAAAAABAAAAEAAAA=</HashCode>
+      <FileName>Dice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game" Collapsed="true">
+    <Position X="11" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQAAABEAAoAgAAAAAAAACAAAhAiQAAAAIAAAACAAAQA=</HashCode>
+      <FileName>Game.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameRunner" Collapsed="true">
+    <Position X="11" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAQAAAAAAAAAAAgIAAAAEQAAAAA=</HashCode>
+      <FileName>GameRunner.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NoActionSpace" Collapsed="true">
+    <Position X="6.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAiAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>NoActionSpace.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAIAAAAAAAAAAAAAAAIAACAAAECAAAAAAEAQAAABA=</HashCode>
+      <FileName>Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PropertySpace" Collapsed="true">
+    <Position X="8" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAEAAAAAAAAAAQAAAAAAAQAAAAAIAQAA=</HashCode>
+      <FileName>PropertySpace.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Space" Collapsed="true">
+    <Position X="7.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAICAAAAAAAAAACAAAAAAAQAAEAAAAQAAAABIAAAA=</HashCode>
+      <FileName>Space.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Station" Collapsed="true">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAIAAAQgAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Station.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Street" Collapsed="true">
+    <Position X="2.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAABAAQAASAAAAQAIAAAAAAAA=</HashCode>
+      <FileName>Street.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Utility" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAgAAAAAAAAQAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Utility.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

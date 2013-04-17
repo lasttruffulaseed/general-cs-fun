@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Bank" Collapsed="true">
+    <Position X="14.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAABAAAABAAAAAAAAAAAAAAAAAAAAAAIAAAAACAAA=</HashCode>
+      <FileName>Bank.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuildableSpace" Collapsed="true">
+    <Position X="8.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAABAAAAAAAAAAQAAAAAAAQAAAAAIAAAA=</HashCode>
+      <FileName>BuildableSpace.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Card" Collapsed="true">
+    <Position X="15.5" Y="2" Width="1.5" />
+    <InheritanceLine Type="Instruction" FixedFromPoint="true">
+      <Path>
+        <Point X="13.5" Y="1.062" />
+        <Point X="13.5" Y="1.625" />
+        <Point X="16.25" Y="1.625" />
+        <Point X="16.25" Y="2" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AABAAAAgAAAAAAAAAAAACAAAQRAAAAAASAAAAAAAAAA=</HashCode>
+      <FileName>Card.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CardSpace" Collapsed="true">
+    <Position X="6.25" Y="3.25" Width="1.5" />
+    <InheritanceLine Type="Space" FixedFromPoint="true">
+      <Path>
+        <Point X="8.875" Y="1.062" />
+        <Point X="8.875" Y="2.875" />
+        <Point X="7" Y="2.875" />
+        <Point X="7" Y="3.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAZBAAAAAAwAAAAAAAgAA=</HashCode>
+      <FileName>CardSpace.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassRegistry&lt;Base&gt;" Collapsed="true">
+    <Position X="16.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAIAAAAAAAAACAAAAIAAAAA=</HashCode>
+      <FileName>ClassRegistry.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Deed" Collapsed="true">
+    <Position X="9.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgIggAEAAAAgAAAAAAAAAAASCAUAAAAQAIECQAAARA=</HashCode>
+      <FileName>Deed.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dice" Collapsed="true">
+    <Position X="18" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAkAAAAAAAAAAgAAAAAAgAABAAAAEAAAA=</HashCode>
+      <FileName>Dice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game" Collapsed="true">
+    <Position X="14.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQAEABEAAoAgAQAAAAAACAAABAiQAAAAIAAAACAAAQA=</HashCode>
+      <FileName>Game.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameRunner" Collapsed="true">
+    <Position X="16.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIBAAQAAAAAAAAAAAgIAAAAEQAAAAA=</HashCode>
+      <FileName>GameRunner.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoToJailInstruction" Collapsed="true">
+    <Position X="10.25" Y="2" Width="1.5" />
+    <InheritanceLine Type="Instruction" FixedFromPoint="true">
+      <Path>
+        <Point X="13" Y="1.062" />
+        <Point X="13" Y="1.625" />
+        <Point X="11" Y="1.625" />
+        <Point X="11" Y="2" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GoToJailInstruction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoToJailSpace" Collapsed="true">
+    <Position X="10.25" Y="3.25" Width="1.5" />
+    <InheritanceLine Type="Space" FixedFromPoint="true">
+      <Path>
+        <Point X="9.25" Y="1.062" />
+        <Point X="9.25" Y="2.95" />
+        <Point X="11" Y="2.95" />
+        <Point X="11" Y="3.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAABAQAAAAAAAQAAAAAIAAAA=</HashCode>
+      <FileName>GoToJailSpace.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instruction" Collapsed="true">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAACAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Instruction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoneyCard" Collapsed="true">
+    <Position X="14.5" Y="4.25" Width="1.5" />
+    <InheritanceLine Type="MoneyInstruction" FixedFromPoint="true">
+      <Path>
+        <Point X="14.562" Y="2.691" />
+        <Point X="14.562" Y="3.875" />
+        <Point X="15.25" Y="3.875" />
+        <Point X="15.25" Y="4.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAQAAAAAAAQAAAAAAABAA=</HashCode>
+      <FileName>MoneyCard.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoneyInstruction" Collapsed="true">
+    <Position X="13.5" Y="2" Width="1.5" />
+    <InheritanceLine Type="Instruction" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="13.375" Y="1.062" />
+        <Point X="13.375" Y="1.722" />
+        <Point X="14.25" Y="1.722" />
+        <Point X="14.25" Y="2" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAIAIAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MoneyInstruction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoveInstruction" Collapsed="true">
+    <Position X="17.25" Y="3" Width="1.5" />
+    <InheritanceLine Type="Instruction" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="13.688" Y="1.062" />
+        <Point X="13.688" Y="1.514" />
+        <Point X="18" Y="1.514" />
+        <Point X="18" Y="3" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAACCAAAEAABAAACAAAAIAAAIAAAAIAAEAAAAAgA=</HashCode>
+      <FileName>MoveInstruction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovementCard" Collapsed="true">
+    <Position X="16.5" Y="4.75" Width="1.5" />
+    <InheritanceLine Type="Card" FixedFromPoint="true">
+      <Path>
+        <Point X="16.688" Y="2.691" />
+        <Point X="16.688" Y="4.375" />
+        <Point X="17.25" Y="4.375" />
+        <Point X="17.25" Y="4.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAgAAQAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>MovementCard.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NoActionSpace" Collapsed="true">
+    <Position X="7" Y="1.75" Width="1.5" />
+    <InheritanceLine Type="Space" FixedFromPoint="true">
+      <Path>
+        <Point X="8.625" Y="1.062" />
+        <Point X="8.625" Y="1.375" />
+        <Point X="7.75" Y="1.375" />
+        <Point X="7.75" Y="1.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAiAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>NoActionSpace.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player" Collapsed="true">
+    <Position X="6.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAIAAAAAAEAACKAgAAIAgEQDQECAAISAIFAQAAABg=</HashCode>
+      <FileName>Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PropertySpace" Collapsed="true">
+    <Position X="8.25" Y="3.25" Width="1.5" />
+    <InheritanceLine Type="Space" FixedFromPoint="true">
+      <Path>
+        <Point X="9.125" Y="1.062" />
+        <Point X="9.125" Y="2.875" />
+        <Point X="9" Y="2.875" />
+        <Point X="9" Y="3.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAEAAAAAAAAAAQAAAAAAAQAAAAAIAQAA=</HashCode>
+      <FileName>PropertySpace.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimplePlayer" Collapsed="true">
+    <Position X="6.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQACAAAAAIAAAAAAAA=</HashCode>
+      <FileName>SimplePlayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Space" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAICAAAAAAAAAACAAAAAAAQAAEAAAAQAAEABIAAAA=</HashCode>
+      <FileName>Space.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Station" Collapsed="true">
+    <Position X="7.5" Y="7.5" Width="1.5" />
+    <InheritanceLine Type="Deed" FixedFromPoint="true">
+      <Path>
+        <Point X="10.188" Y="6.812" />
+        <Point X="10.188" Y="7.125" />
+        <Point X="8.25" Y="7.125" />
+        <Point X="8.25" Y="7.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAIAAAQgAAAAAAQAIAAAAAABA=</HashCode>
+      <FileName>Station.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Street" Collapsed="true">
+    <Position X="9.75" Y="7.5" Width="1.5" />
+    <InheritanceLine Type="Deed" FixedFromPoint="true">
+      <Path>
+        <Point X="10.5" Y="6.812" />
+        <Point X="10.5" Y="7.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAABAAQAASAAAAQAIAAAAAABA=</HashCode>
+      <FileName>Street.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaxSpace" Collapsed="true">
+    <Position X="12.5" Y="4.25" Width="1.5" />
+    <InheritanceLine Type="Space" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="9.375" Y="1.062" />
+        <Point X="9.375" Y="1.362" />
+        <Point X="12.917" Y="1.362" />
+        <Point X="12.917" Y="3.935" />
+        <Point X="13.25" Y="3.935" />
+        <Point X="13.25" Y="4.25" />
+      </Path>
+    </InheritanceLine>
+    <InheritanceLine Type="MoneyInstruction" FixedFromPoint="true">
+      <Path>
+        <Point X="13.875" Y="2.691" />
+        <Point X="13.875" Y="3.935" />
+        <Point X="13.25" Y="3.935" />
+        <Point X="13.25" Y="4.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAIAAQAAAAAAAQAAAAAIAAAA=</HashCode>
+      <FileName>TaxSpace.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Utility" Collapsed="true">
+    <Position X="12" Y="7.5" Width="1.5" />
+    <InheritanceLine Type="Deed" FixedFromPoint="true">
+      <Path>
+        <Point X="10.875" Y="6.812" />
+        <Point X="10.875" Y="7.125" />
+        <Point X="12.75" Y="7.125" />
+        <Point X="12.75" Y="7.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAgAAAAAAAAQAAAAEAAQAIgAAAAABA=</HashCode>
+      <FileName>Utility.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
